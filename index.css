@@ -1,0 +1,529 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+body{
+    background-color: #0c0c0c;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.header .navbar{
+    background-color:rgb(81, 81, 157);
+    
+
+    
+}
+.header .navbar ul{
+   
+    overflow: auto;
+}
+.header .navbar li{
+    float: right;
+    list-style: none;
+    padding : 12px;
+    margin: 2px 2px;
+}
+
+.header .navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3 ease;
+}
+
+
+.header .navbar li a:hover{
+    text-decoration:underline;
+    color: red;
+
+
+}
+
+
+.header .navbar div{
+
+    position: absolute;
+    display:flex;
+    color: white;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+ /* HOME*/
+.home{
+    
+    background: url(images/background.jpg);
+    height: 100vh;
+    color: #fff;
+    min-height: 100px;
+
+}
+.home{
+    display: flex;
+    color: #ffff;
+    width: 100%;
+
+}
+
+.home .class1{
+   margin: 186px 142px auto 110px
+}
+
+.home .homecontent .text1{
+    font-size: 20px;
+}
+
+.home .homecontent .text2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: -3px;
+}
+
+.home .homecontent .text3{
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.home .homecontent .text3 span{
+    font-size: 25px;
+    font-weight: 500;
+    color: crimson;
+}
+
+.home .class2{
+    margin: 380px 10px auto 331px
+}
+
+
+ /*about Me*/
+.about .title{
+    position: relative;
+    color: whitesmoke;
+         text-align: center;
+         font-size: 40px;
+         font-weight: 500;
+         margin-top: 10px;
+         padding-bottom: 20px;
+}
+
+
+
+.about .aboutc .cleft img{
+    height: 442px;
+    width: 400px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 35px 34px  20px 44px;
+}
+
+.about .aboutc{
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.achievment{
+    display: flex;
+font-size: 20px;
+    width: 10cm;
+    height: 6cm;
+    justify-content: center;
+    margin: -425px 22px 290px 802px
+
+}
+ .achievment  .headline{
+    color: pink;
+    font-size: 25px;
+    margin-top: 9px;
+ }
+.achievment .list ul{
+    color: white;
+    font-size: 17px;
+    margin: 56px -170px 10px;
+    padding: auto auto;
+
+}
+
+
+.skill{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin: -507px 0px 411px 450px;
+    width: 30%;
+
+}
+.skill .headline2{
+    color: pink;
+    padding-left: 3cm;
+    font-size: 25px;
+}
+
+.skill .list2 ul{
+    font-size: 17px;
+    margin: 23px 10px 10px 161px;
+    padding: auto auto;
+}
+.must h3{
+     color: rgb(145, 25, 101);
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin:-239px 218px 268px 145px;
+}
+
+.must .visit{
+    display: flex;
+    justify-content: center;
+    margin: -23px -39px 10px 10px;
+}
+ 
+.visit1 .linkdin{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: -242px -240px 47px 700px;
+    width: 30%;
+
+}
+
+.visit1 .linkdin :hover{
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+ .linkdin a{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 1cm;
+    width: 3cm;
+margin:-48px 659px 29px 445px;
+padding: 10px 40px 5px 40px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+.visit1 .github{
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(137, 12, 104);
+    padding-top: 10px;
+    height: 1cm;
+    width: 3cm;
+    margin: -130px 0px 75px 900px;
+    font-size: 20px;
+}
+
+
+.github a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.visit1 .github :hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
+/* project css*/
+.project{
+    color: #fff;
+    height:12cm;
+}
+.project .myproject{
+display: flex;
+justify-content: center;
+font-size: 40px;
+margin-top: 20px;
+
+}
+
+.project .portfolio{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 8cm;
+    height: 8cm;
+    background: linear-gradient(315deg,#679c8e 0%,#ba30b8 74%);
+    margin: 60px 10px 10px 10px;
+}
+
+.project .coming{
+    display: flex;
+    border: 2px solid white;
+    height: 8cm;
+    width: 8cm;
+    margin: -311px 23px 44px 425px;
+}
+
+.project .portfolio a{
+     border: 2px solid red;
+     text-decoration:  none;
+     border-radius: 10px;
+     color: white;
+     height: 1cm;
+     font-size: 20px;
+     margin: 221px -109px 30px -150px;
+     padding: 10px 10px 0px 10px;
+     
+}
+
+.project .portfolio h4{
+    font-size: 30px;
+     height: 1.5cm;
+     width: 6cm;
+     margin: 167px -20px 1px 48px;
+}
+
+
+.project .portfolio .imgportfolio{
+    display: flex;
+    justify-content: centre;
+    height: 3cm;
+    width: 3cm;
+    margin: 36px -212px 10px 90px;
+}
+.project .coming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+/* SERVICES */
+.services{
+    padding: 10px 0px;
+    height: 10cm; 
+    color: white;
+}
+.services .container .subtitle{
+    font-size: 40px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.servicelist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+.servicelist div{
+    background:#151321;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s,transform 0,5s;
+}
+
+.servicelist div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.servicelist div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+
+.servicelist div h2{
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+/* contact   */
+.contact{
+height: 5cm;
+border: 2px solid red;
+color: white;
+}
+
+.contact h1{
+display: flex;
+justify-content: center;
+font-size: 40px;
+}
+
+.contact .contactlogo img{
+
+height: 8cm;
+width: 6cm;
+display: flex;
+border: 1px solid rgb(216, 195, 198);
+border-radius: 30px;
+justify-content: center;
+margin: -340px 4px 9px 800px;
+}
+
+.contact .details{
+font-size: 20px;
+text-align: left;
+width: 10cm;
+border: 2px solid white;
+border-radius: 10px;
+padding: 10px 10px 10px 10px;
+margin: 60px 10px 10px 100px ;
+}
+.contact .details .text{
+padding: 4px 70px 10px 10px;
+margin: 30px 10px 10px 10px;
+}
+
+.contact .details .email{
+padding: 4px 70px 10px 10px;
+margin: 30px 10px 10px 10px;
+}
+
+.contact .details .tel{
+padding: 4px 70px 10px 10px;
+margin: 30px 10px 10px 10px;
+}
+
+.contact .details .text2{
+padding: 28px 82px 10px 10px;
+margin: 30px 10px 10px 10px;
+}
+
+.contact .details .submit{
+padding: 2px 70px 10px 10px;
+margin: 10px 10px 10px 10px;
+}
+
+.contact .details .submit{
+    border: 2px solid white;
+    background-color: #4f0c46;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contact .details .submit:hover{
+    font-size: 30px;
+    background-color: #e32b46;
+}
+
+.contact .details .submit1{
+    margin: 10px 121px 10px 117px;
+}
+
+/*Footer*/
+footer {
+background-color: #4f0c46;
+color: #fff;
+padding: 20px;
+}
+
+.footer-content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer-section {
+flex: 1;
+padding: 10px;
+}
+
+.footer-section h2, .footer-section p {
+color: #fff;
+}
+
+.footer-section ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.footer-section ul li {
+margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section.social {
+display: flex;
+align-items: center;
+}
+
+.social-icons {
+display: flex;
+align-items: center;
+}
+
+.social-icons li {
+margin-right: 10px;
+}
+
+.social-icons li a {
+color: #2f097d;
+font-size: 24px;
+text-decoration: none;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.fa-facebook-f {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+background: #a40768;
+color: white;
+}
+
+.fa-linkedin {
+background: #115bc3;
+color: white;
+}
+
+.social-icons li a:hover {
+background-color: #ff6347; /* Change color on hover (example: coral) */
+}
+
+.logo {
+width: 80px;
+height: 80px;
+margin-right: 20px;
+}
+
+.footer-bottom {
+margin-top: 20px;
+text-align: center;
+}
+
+.footer-bottom p {
+font-size: 14px;
+}
